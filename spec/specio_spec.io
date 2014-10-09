@@ -1,0 +1,1 @@
+assert(directoryFor("lib") path, "/")

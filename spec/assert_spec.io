@@ -1,2 +1,3 @@
-assert("", 3, 2) println
-assert("", 3, 3) println
+assert(3, 2)
+
+assert(3, 3)

@@ -1,5 +1,6 @@
-assert := method(description, actual, expected,
+assert := method(actual, expected,
   if(actual == expected,
-    "[31m this is green [0m",
-    "[32m this is redk[0m")
+    ("[32m" .. call message .. "[0m") println,
+    ("[31mFailure/Error: " .. call message .. "\nexpected: " .. expected ..  " to equal " .. actual .. ". [0m") println
+  )
 )
