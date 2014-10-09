@@ -1,0 +1,5 @@
+#!/usr/bin/env io
+specioFile := (System launchPath) beforeSeq("bin") .. "lib/spec.io"
+doFile(specioFile)
+
+runSpecs
