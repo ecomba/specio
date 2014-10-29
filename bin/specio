@@ -2,4 +2,4 @@
 specioFile := (System launchPath) beforeSeq("bin") .. "lib/spec.io"
 doFile(specioFile)
 
-runSpecs
+runSpecs println
